@@ -1,0 +1,19 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .main1 h1{
+    font-size:24px;
+  }
+  .btn{
+    width:200px;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  .main1 h1{
+    font-size:16px;
+  }
+  .btn{
+    width:170px;
+  }
+}
