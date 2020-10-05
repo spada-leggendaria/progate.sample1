@@ -1,0 +1,78 @@
+.title {
+  color: #02ccba;
+}
+
+.header1{
+  background-color: #aaeeff;
+  opacity:0.7;  /*透明度の設定*/
+}
+
+.header1 li{
+  color: #00aaff;
+  font-size: 20px;
+  padding:5px 20px;
+}
+
+/*<a>タグのデザイン設定*/
+.btn{
+width:25%;    /*枠幅の指定*/
+padding-top:3px;
+padding-bottom:3px;
+margin:4px;
+text-align:center;
+color:#fff;
+display: inline-block;
+opacity:0.7;
+border-radius:6px;
+}
+/*<a>タグ通過時*/
+.btn:hover{
+opacity:1;
+transition: all 1s; /*表示タイム*/
+}
+
+main{
+  background-image: url(wallpaper.bmp);
+  background-size:cover;
+  padding:100px 50px;
+}
+/*main1:タイトル*/
+.main1{
+  text-align:center;
+}
+/*main2:リンク*/
+.main2{
+  margin:100px;
+  .text-align:center;
+}
+/*ﾘﾝｸのﾎﾞﾀﾝ設定*/
+.a_youtube{
+  background-color:#df0000;   /*ﾎﾞﾀﾝの色設定*/
+  box-shadow: 0 4px #740000;  /*ﾎﾞﾀﾝの影設定*/
+}
+.a_google{
+  background-color:#3ac600;
+  box-shadow: 0 4px #1e7300;
+}
+.a_microsoft{
+  background-color:#36a0e0;
+  box-shadow: 0 4px #126a84;
+}
+.a_amazon{
+  background-color:#ca7e00;
+  box-shadow: 0 4px #a24800;
+}
+
+/*main3:入力 …名前:入力　の並びに*/
+.main3-input1{
+  float:left;
+  margin:10px;
+}
+.main3-input2{
+  float:left;
+  margin:10px;
+}
+.main3-input3{
+  float:left;
+  margin:10px
+}
